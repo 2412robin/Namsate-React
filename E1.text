@@ -1,0 +1,42 @@
+
+what is Emmet?
+Emmet is a built-in feature in Visual Studio Code.Think of Emmet as shorthand. With it, you can easily write a lot of code quickly. It dramatically speeds up your HTML & CSS workflow.
+
+what is framework and library?
+framework
+ A framework is like the foundation upon which developers build applications for specific platforms. It includes reusable pieces of code written to perform common tasks and uses code provided by a developer for custom functionality.
+library
+A library is a collection of prewritten code that can be used to simplify tasks. The term library simply refers to a collection of code that is reused repeatedly. It is essentially a set of pre-defined functions and classes that programmers can use to simplify their work and speed up the development process.
+
+what is CDN ? why do we use it?
+A CDN or Content Delivery Network improves the speed of a website by placing the content in different servers across the globe.
+
+This process results in faster loading of the website as it reduces the delivery time and the distance from the server.
+It also makes the websites load faster and makes it responsive. This is done by compressing the file and optimizing the network simultaneously in the application.
+This process results in faster loading of the website as it reduces the delivery time and the distance from the server.
+It also makes the websites load faster and makes it responsive. This is done by compressing the file and optimizing the network simultaneously in the application.
+
+why  react is known as react ?
+
+* When data in a React application changes, the components that depend on that data are automatically updated, which allows for efficient and seamless updates to the user interface. The name “React” reflects this reactive nature of the library.
+
+-what is cross-origin in script tag?
+The purpose of crossorigin attribute is used to share the resources from one domain to another domain. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+
+The difference between react.development.js and react.production.js files via CDN
+react.development.js - More developer friendly, readable, will take more size.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+more info-- https://stackoverflow.com/questions/75791204/the-difference-between-react-development-js-and-react-production-js-files-via-cd#:~:text=In%20production%20mode%2C%20compression%20and,when%20compared%20to%20development%20mode.
+
+what are async and defer?
+Async in script tag in JavaScript is a way to load scripts asynchronously. That means, if a script is async, it will be loaded independently of other scripts on the page, and will not block the page from loading
+
+By using the defer attribute in HTML, the browser will load the script only after parsing (loading) the page. This can be helpful if you have a script that is dependent on other scripts, or if you want to improve the loading time of your page by loading scripts after the initial page load.
+
+The async and defer attributes both allow the browser to continue parsing the HTML document while JavaScript files are being downloaded, but they differ in when those files are executed.
+
+Async downloads and executes JavaScript as soon as it’s available, while defer attribute waits until the HTML document has been parsed before downloading and executing any external scripts.
+
+
+
+
