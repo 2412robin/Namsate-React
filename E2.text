@@ -1,0 +1,9 @@
+what is NPM?
+npm is a package for JS. it does nothave full form. 
+npm is standered repository for all the pakages and it is biggest pakages manger
+
+what is parcel/webpack? why do we need it?
+Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify, clean, 
+and make your code compact so that it becomes easier to send a request or receive the response from the server
+ when it usually takes you to transfer multiple files without using any bundler for loading the page of your application.
+ 
