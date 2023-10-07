@@ -2,6 +2,1574 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 
+
+
+
+const resList = 
+    {
+                restaurants: [
+                  {
+                    "info": {
+                      "id": "5107",
+                      "name": "Blue Nile",
+                      "cloudinaryImageId": "usj6ahnbc4lvrmxlzuee",
+                      "locality": "Camp",
+                      "areaName": "Camp Area",
+                      "costForTwo": "\u20B9700 for two",
+                      "cuisines": [
+                        "Indian",
+                        "Chinese"
+                      ],
+                      "avgRating": 4.2,
+                      "feeDetails": {
+                        "restaurantId": "5107",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5400
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 5400
+                      },
+                      "parentId": "145",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 35,
+                        "lastMileTravel": 4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "35 mins",
+                        "lastMileTravelString": "4.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                            "description": "gourmet"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "gourmet",
+                                  "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "\u20B9125 OFF",
+                        "subHeader": "ABOVE \u20B9249",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/blue-nile-camp-camp-area-pune-5107",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "4884",
+                      "name": "Subway",
+                      "cloudinaryImageId": "0bf19a82b109b40c2f5c56d00f071a33",
+                      "locality": "Meera Nagar",
+                      "areaName": "Koregaon Park",
+                      "costForTwo": "\u20B9350 for two",
+                      "cuisines": [
+                        "Healthy Food",
+                        "Salads",
+                        "Snacks",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.4,
+                      "feeDetails": {
+                        "restaurantId": "4884",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3800
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 3800
+                      },
+                      "parentId": "2",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 3.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "33 mins",
+                        "lastMileTravelString": "3.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-30 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/subway-meera-nagar-koregaon-park-pune-4884",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "60832",
+                      "name": "Irani Cafe",
+                      "cloudinaryImageId": "lrgeojzdbhhwe2cqjz2n",
+                      "locality": "North Avenue Road",
+                      "areaName": "Kalyani Nagar",
+                      "costForTwo": "\u20B9200 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Snacks",
+                        "Fast Food",
+                        "Desserts",
+                        "Beverages",
+                        "Street Food",
+                        "Indian"
+                      ],
+                      "avgRating": 4.5,
+                      "feeDetails": {
+                        "restaurantId": "60832",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4700
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 4700
+                      },
+                      "parentId": "4057",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 4.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "27 mins",
+                        "lastMileTravelString": "4.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:40:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/irani-cafe-north-avenue-road-kalyani-nagar-pune-60832",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "13906",
+                      "name": "Wadeshwar",
+                      "cloudinaryImageId": "ee51fzavw0jgsryxkavp",
+                      "locality": "Kalyani Nagar",
+                      "areaName": "Kalyani Nagar",
+                      "costForTwo": "\u20B9350 for two",
+                      "cuisines": [
+                        "South Indian",
+                        "North Indian",
+                        "Chinese",
+                        "Street Food",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.2,
+                      "feeDetails": {
+                        "restaurantId": "13906",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5300
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 5300
+                      },
+                      "parentId": "1770",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 31,
+                        "lastMileTravel": 5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "31 mins",
+                        "lastMileTravelString": "5.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 22:55:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/wadeshwar-kalyani-nagar-pune-13906",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "412737",
+                      "name": "Sweet Bengal",
+                      "cloudinaryImageId": "i39qgflu6azefcqs5phc",
+                      "locality": "Dhole Patil Road",
+                      "areaName": "Dhole Patil Road",
+                      "costForTwo": "\u20B9150 for two",
+                      "cuisines": [
+                        "Sweets",
+                        "Indian",
+                        "Snacks",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "feeDetails": {
+                        "restaurantId": "412737",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3200
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 3200
+                      },
+                      "parentId": "1250",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 2.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "24 mins",
+                        "lastMileTravelString": "2.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 22:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO \u20B950"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/sweet-bengal-dhole-patil-road-pune-412737",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "139929",
+                      "name": "Theobroma",
+                      "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
+                      "locality": "Meera Nagar",
+                      "areaName": "Koregaon Park",
+                      "costForTwo": "\u20B9500 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "feeDetails": {
+                        "restaurantId": "139929",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4800
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 4800
+                      },
+                      "parentId": "1040",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "24 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-30 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/theobroma-meera-nagar-koregaon-park-pune-139929",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "284809",
+                      "name": "Starbucks Coffee",
+                      "cloudinaryImageId": "4df3497f1460dfd1ecd8125222f6d362",
+                      "locality": "Koregaon Park",
+                      "areaName": "Koregaon Park",
+                      "costForTwo": "\u20B9400 for two",
+                      "cuisines": [
+                        "Beverages",
+                        "Cafe",
+                        "Snacks",
+                        "Desserts",
+                        "Bakery",
+                        "Ice Cream"
+                      ],
+                      "avgRating": 4.4,
+                      "feeDetails": {
+                        "restaurantId": "284809",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 4000
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 4000
+                      },
+                      "parentId": "195515",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 22,
+                        "lastMileTravel": 2.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "22 mins",
+                        "lastMileTravelString": "2.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/starbucks-coffee-koregaon-park-pune-284809",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "522739",
+                      "name": "EatFit",
+                      "cloudinaryImageId": "6126c9b45de2cb222405c1af8a321e74",
+                      "locality": "Digambar Nagar",
+                      "areaName": "Viman Nagar",
+                      "costForTwo": "\u20B9270 for two",
+                      "cuisines": [
+                        "Chinese",
+                        "Healthy Food",
+                        "Tandoor",
+                        "Pizzas",
+                        "North Indian",
+                        "Thalis",
+                        "Biryani"
+                      ],
+                      "avgRating": 4.2,
+                      "feeDetails": {
+                        "restaurantId": "522739",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5600
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 5600
+                      },
+                      "parentId": "76139",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 34,
+                        "lastMileTravel": 6.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "34 mins",
+                        "lastMileTravelString": "6.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "brand",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "brand"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "\u20B9125 OFF",
+                        "subHeader": "ABOVE \u20B9249",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/eatfit-digambar-nagar-viman-nagar-pune-522739",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "27806",
+                      "name": "Natural Ice Cream",
+                      "cloudinaryImageId": "jzzrlap0b4mcagd2jqxh",
+                      "locality": "Meera Nagar",
+                      "areaName": "Koregaon Park",
+                      "costForTwo": "\u20B9150 for two",
+                      "cuisines": [
+                        "Ice Cream",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.7,
+                      "veg": true,
+                      "feeDetails": {
+                        "restaurantId": "27806",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 3800
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 3800
+                      },
+                      "parentId": "2093",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "5K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 3.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "24 mins",
+                        "lastMileTravelString": "3.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "pureveg",
+                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/natural-ice-cream-meera-nagar-koregaon-park-pune-27806",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "21743",
+                      "name": "Chai Point",
+                      "cloudinaryImageId": "ciytsfqah6s9h2fg4off",
+                      "locality": "Phoenix Market city",
+                      "areaName": "Viman Nagar",
+                      "costForTwo": "\u20B9150 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Beverages",
+                        "Maharashtrian",
+                        "Snacks",
+                        "Street Food",
+                        "South Indian",
+                        "Punjabi",
+                        "Chaat",
+                        "Indian",
+                        "American",
+                        "North Indian",
+                        "Fast Food",
+                        "Desserts",
+                        "Cafe",
+                        "Healthy Food",
+                        "Home Food"
+                      ],
+                      "avgRating": 4.1,
+                      "feeDetails": {
+                        "restaurantId": "21743",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5600
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 5600
+                      },
+                      "parentId": "1607",
+                      "avgRatingString": "4.1",
+                      "totalRatingsString": "5K+",
+                      "sla": {
+                        "deliveryTime": 53,
+                        "lastMileTravel": 6.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "53 mins",
+                        "lastMileTravelString": "6.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO \u20B9120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/chai-point-phoenix-market-city-viman-nagar-pune-21743",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "43817",
+                      "name": "Mad Momos",
+                      "cloudinaryImageId": "xokqsyo7ueaog9h9jghu",
+                      "locality": "Panchganga Society",
+                      "areaName": "Hadapsar",
+                      "costForTwo": "\u20B9200 for two",
+                      "cuisines": [
+                        "Chinese",
+                        "Tibetan",
+                        "Nepalese",
+                        "Pizzas",
+                        "Snacks",
+                        "Beverages"
+                      ],
+                      "avgRating": 3.8,
+                      "feeDetails": {
+                        "restaurantId": "43817",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 9500
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 9500
+                      },
+                      "parentId": "610",
+                      "avgRatingString": "3.8",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 51,
+                        "lastMileTravel": 9.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "51 mins",
+                        "lastMileTravelString": "9.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-30 06:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO \u20B9120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/mad-momos-panchganga-society-hadapsar-pune-43817",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "3383",
+                      "name": "Falahaar",
+                      "cloudinaryImageId": "uudi6utwjyb45shyhdfs",
+                      "locality": "Viman Nagar",
+                      "areaName": "Viman Nagar",
+                      "costForTwo": "\u20B9350 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Beverages",
+                        "American"
+                      ],
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "feeDetails": {
+                        "restaurantId": "3383",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 6500
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 6500
+                      },
+                      "parentId": "364",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 42,
+                        "lastMileTravel": 7.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "42 mins",
+                        "lastMileTravelString": "7.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-30 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/falahaar-viman-nagar-pune-3383",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "66351",
+                      "name": "Oye Kiddan",
+                      "cloudinaryImageId": "wk38shz7sl9tsncx1j1z",
+                      "locality": "Sopan nagar",
+                      "areaName": "Wadgaon Sheri",
+                      "costForTwo": "\u20B9250 for two",
+                      "cuisines": [
+                        "Punjabi",
+                        "North Indian",
+                        "Thalis",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.1,
+                      "feeDetails": {
+                        "restaurantId": "66351",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 5900
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 5900
+                      },
+                      "parentId": "690",
+                      "avgRatingString": "4.1",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 44,
+                        "lastMileTravel": 6.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "44 mins",
+                        "lastMileTravelString": "6.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 15:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO \u20B9120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/oye-kiddan-sopan-nagar-wadgaon-sheri-pune-66351",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "54282",
+                      "name": "Cafe Goodluck",
+                      "cloudinaryImageId": "b0vxzv2f3ptiiu2bdc3b",
+                      "locality": "Capital Building",
+                      "areaName": "Baner",
+                      "costForTwo": "\u20B9250 for two",
+                      "cuisines": [
+                        "Snacks",
+                        "Beverages",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "feeDetails": {
+                        "restaurantId": "54282",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 11500
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 11500
+                      },
+                      "parentId": "6539",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "5K+",
+                      "sla": {
+                        "deliveryTime": 47,
+                        "lastMileTravel": 11.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "47 mins",
+                        "lastMileTravelString": "11.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-29 22:15:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO \u20B950"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/cafe-goodluck-capital-building-baner-pune-54282",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "213853",
+                      "name": "WarmOven Cake & Desserts",
+                      "cloudinaryImageId": "e938fb5f416cc2c28b4b519cf27b04cc",
+                      "locality": "Tukaram Nagar",
+                      "areaName": "Kharadi",
+                      "costForTwo": "\u20B9200 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Desserts",
+                        "Ice Cream",
+                        "Beverages"
+                      ],
+                      "avgRating": 4,
+                      "feeDetails": {
+                        "restaurantId": "213853",
+                        "fees": [
+                          {
+                            "name": "BASE_DISTANCE",
+                            "fee": 8000
+                          },
+                          {
+                            "name": "BASE_TIME"
+                          },
+                          {
+                            "name": "ANCILLARY_SURGE_FEE"
+                          }
+                        ],
+                        "totalFee": 8000
+                      },
+                      "parentId": "9696",
+                      "avgRatingString": "4.0",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 51,
+                        "lastMileTravel": 8.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "51 mins",
+                        "lastMileTravelString": "8.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2023-09-30 05:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO \u20B9120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      }
+                    },
+                    "analytics": {
+
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/warmoven-cake-and-desserts-tukaram-nagar-kharadi-pune-213853",
+                      "type": "WEBLINK"
+                    }
+                  },
+                
+                ],
+                "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+                "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+                "style": {
+                  "width": {
+                    "type": "TYPE_RELATIVE",
+                    "value": 0.41111112,
+                    "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+                  },
+                  "height": {
+                    "type": "TYPE_RELATIVE",
+                    "value": 0.7027027,
+                    "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+                  },
+                  "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+                },
+                "collectionId": "84124"
+              
+            
+          }
+        
+
+
 const Header = () => {
     return(
         <div className="header">
@@ -28,826 +1596,40 @@ const styleCard ={
     backgroundColor:"#f0f0f0"
 
 };
-
-
-const resList = [
-    {
-        "card": {
-          "card": {
-            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
-            "header": {
-              "title": "What's on your mind?",
-              "headerStyling": {
-                "padding": {
-                  "left": 16,
-                  "top": 16,
-                  "bottom": 4
-                }
-              }
-            },
-            "layout": {
-              "rows": 1,
-              "columns": 10,
-              "horizontalScrollEnabled": true,
-              "itemSpacing": 24,
-              "widgetPadding": {
-
-              },
-              "containerStyle": {
-                "containerPadding": {
-                  "left": 8,
-                  "top": 8,
-                  "right": 12,
-                  "bottom": 4
-                }
-              },
-              "scrollBar": {
-
-              },
-              "widgetTheme": {
-                "defaultMode": {
-                  "backgroundColour": "#FFFFFF",
-                  "theme": "THEME_TYPE_LIGHT"
-                },
-                "darkMode": {
-                  "theme": "THEME_TYPE_DARK"
-                }
-              }
-            },
-            "imageGridCards": {
-              "info": [
-                {
-                  "id": "750132",
-                  "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                    "text": "Dosa",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for dosa",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750644",
-                  "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80441?collection_id=80441&tags=layout_CCS_Idli&type=rcv2",
-                    "text": "Idli",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for idly",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80441&tags=layout_CCS_Idli",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750231",
-                  "imageId": "v1674029857/PC_Creative%20refresh/3D_bau/banners_new/Poha.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80374?collection_id=80374&tags=layout_CCS_Poha&type=rcv2",
-                    "text": "Poha",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for poha",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80374&tags=layout_CCS_Poha",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750562",
-                  "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-                    "text": "Vada",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for vada",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80427",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750235",
-                  "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
-                    "text": "Sandwich",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for sandwich",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750544",
-                  "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Upma.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80412?collection_id=80412&tags=layout_BAU_Contextual%2Cupma&type=rcv2",
-                    "text": "Upma",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for upma",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80412",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750237",
-                  "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Poori.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80378?collection_id=80378&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                    "text": "Poori",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for poori",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80378",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750203",
-                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                    "text": "Paratha",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for paratha",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80476",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "749789",
-                  "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Omelette.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80468?collection_id=80468&tags=layout_BAU_Contextual%2Comelette&type=rcv2",
-                    "text": "Omelette",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for omelette",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80468",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750230",
-                  "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Samosas.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80397?collection_id=80397&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-                    "text": "Samosa",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for samosa",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80397",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750198",
-                  "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Pancake.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80472?collection_id=80472&tags=layout_BAU_Contextual%2Cpancake&type=rcv2",
-                    "text": "Pancakes",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pancake",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80472",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "749874",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                    "text": "Cakes",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for cakes",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750640",
-                  "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Kachori.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80450?collection_id=80450&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-                    "text": "Kachori",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for kachori",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80450",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750226",
-                  "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                    "text": "Salad",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for salad",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750217",
-                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pav_Bhaji.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80364?collection_id=80364&tags=layout_PavBhaji_Contextual&type=rcv2",
-                    "text": "Pav Bhaji",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pav bhaji",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80364&tags=layout_PavBhaji_Contextual",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "749879",
-                  "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
-                    "text": "Chole Bhature",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for chhole bhatoore",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750599",
-                  "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Coffee.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83908?collection_id=83908&tags=layout_CCS_Coffee&type=rcv2",
-                    "text": "Coffee",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for coffee",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83908&tags=layout_CCS_Coffee",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750605",
-                  "imageId": "rng/md/carousel/production/cbb85a3c1684891105294d11f8359996",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80494?collection_id=80494&tags=layout_CCS_Tea&type=rcv2",
-                    "text": "Tea",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for tea",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80494&tags=layout_CCS_Tea",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "750123",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Dhokla.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80423?collection_id=80423&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-                    "text": "Dhokla",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for dhokla",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80423",
-                  "frequencyCapping": {
-
-                  }
-                },
-                {
-                  "id": "749761",
-                  "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Khichdi.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80456?collection_id=80456&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
-                    "text": "Khichdi",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for khicdhi",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80456",
-                  "frequencyCapping": {
-
-                  }
-                }
-              ],
-              "style": {
-                "width": {
-                  "type": "TYPE_RELATIVE",
-                  "value": 0.2941,
-                  "reference": "RELATIVE_DIMENSION_REFERENCE_CONTAINER_WIDTH"
-                },
-                "height": {
-                  "type": "TYPE_RELATIVE",
-                  "value": 1.2444,
-                  "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
-                }
-              }
-            },
-            "id": "whats_on_your_mind",
-            "gridElements": {
-              "infoWithStyle": {
-                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.ImageInfoLayoutCard",
-                "info": [
-                  {
-                    "id": "750132",
-                    "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                      "text": "Dosa",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for dosa",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750644",
-                    "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80441?collection_id=80441&tags=layout_CCS_Idli&type=rcv2",
-                      "text": "Idli",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for idly",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80441&tags=layout_CCS_Idli",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750231",
-                    "imageId": "v1674029857/PC_Creative%20refresh/3D_bau/banners_new/Poha.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80374?collection_id=80374&tags=layout_CCS_Poha&type=rcv2",
-                      "text": "Poha",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for poha",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80374&tags=layout_CCS_Poha",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750562",
-                    "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-                      "text": "Vada",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for vada",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80427",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750235",
-                    "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
-                      "text": "Sandwich",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for sandwich",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750544",
-                    "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Upma.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80412?collection_id=80412&tags=layout_BAU_Contextual%2Cupma&type=rcv2",
-                      "text": "Upma",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for upma",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80412",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750237",
-                    "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Poori.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80378?collection_id=80378&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                      "text": "Poori",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for poori",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80378",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750203",
-                    "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                      "text": "Paratha",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for paratha",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80476",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "749789",
-                    "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Omelette.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80468?collection_id=80468&tags=layout_BAU_Contextual%2Comelette&type=rcv2",
-                      "text": "Omelette",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for omelette",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80468",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750230",
-                    "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Samosas.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80397?collection_id=80397&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-                      "text": "Samosa",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for samosa",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80397",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750198",
-                    "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Pancake.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80472?collection_id=80472&tags=layout_BAU_Contextual%2Cpancake&type=rcv2",
-                      "text": "Pancakes",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for pancake",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80472",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "749874",
-                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                      "text": "Cakes",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for cakes",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750640",
-                    "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Kachori.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80450?collection_id=80450&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-                      "text": "Kachori",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for kachori",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80450",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750226",
-                    "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                      "text": "Salad",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for salad",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750217",
-                    "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pav_Bhaji.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80364?collection_id=80364&tags=layout_PavBhaji_Contextual&type=rcv2",
-                      "text": "Pav Bhaji",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for pav bhaji",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80364&tags=layout_PavBhaji_Contextual",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "749879",
-                    "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
-                      "text": "Chole Bhature",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for chhole bhatoore",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750599",
-                    "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Coffee.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83908?collection_id=83908&tags=layout_CCS_Coffee&type=rcv2",
-                      "text": "Coffee",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for coffee",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83908&tags=layout_CCS_Coffee",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750605",
-                    "imageId": "rng/md/carousel/production/cbb85a3c1684891105294d11f8359996",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80494?collection_id=80494&tags=layout_CCS_Tea&type=rcv2",
-                      "text": "Tea",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for tea",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80494&tags=layout_CCS_Tea",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "750123",
-                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Dhokla.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80423?collection_id=80423&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-                      "text": "Dhokla",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for dhokla",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80423",
-                    "frequencyCapping": {
-
-                    }
-                  },
-                  {
-                    "id": "749761",
-                    "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Khichdi.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80456?collection_id=80456&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
-                      "text": "Khichdi",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for khicdhi",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80456",
-                    "frequencyCapping": {
-
-                    }
-                  }
-                ],
-                "style": {
-                  "width": {
-                    "type": "TYPE_RELATIVE",
-                    "value": 0.2941,
-                    "reference": "RELATIVE_DIMENSION_REFERENCE_CONTAINER_WIDTH"
-                  },
-                  "height": {
-                    "type": "TYPE_RELATIVE",
-                    "value": 1.2444,
-                    "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-];
+ 
 const RestaurantCard = (props) => {
-    const {resData} =props;
-    <div className="res-card" style={styleCard}>
-        <img
-            className="res-logo"
-            alt="res-logo"
-            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/usj6ahnbc4lvrmxlzuee" />
-        <h3>{resData.data.name}</h3>
-        <h4>{resData.data.cuisines.join(",")}</h4>
-        <h4>{resData.data.costForTwo/100} FOR TWO</h4>
-        <h4>{resData.data.deliveryTime}</h4>
+  // console.log(props," this is props");
+    const {data} =props;
+    const {
+      cloudinaryImageId,
+      name,
+      cuisines,
+      locality,
+      costForTwo,
+      avgRatingString,
+      
+    } = data?.info;
+return(
+    //  resData.restaurants.map((data)=> {
+        <div className="res-card" style={styleCard}>
+         <img
+            className="image-res"
+            src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`}
+            alt="image"
+          />
+        <h3>{name}</h3>
+        <h4 className="fiw">{cuisines.join(",")}</h4>
+         <h5>{locality}</h5>
+         <h4>{costForTwo}</h4>
+         <h6>{avgRatingString}</h6>
+     </div>
+    // })
+)
+ 
 
-    </div>
 };
+
+
 
 const Body = () => {
     return(
@@ -856,15 +1638,22 @@ const Body = () => {
                 Search
             </div>
             <div className="res-container">
-                <RestaurantCard resData={resList}/>
-                <RestaurantCard
-                />
-                
+              {     resList.restaurants.map((data, id)=> {
+// when ever we loop anything we have to give key properte key is reseverd word andwe have to pass in it the unique
+//we can also use index as key also it 
+             return   <RestaurantCard key={id} data={data}/>
+              })}
+            
             </div>
 
         </div>
+        
     );
+
+    
 };
+
+
 const AppLayout = () => {
     return(
         <div className="app">
