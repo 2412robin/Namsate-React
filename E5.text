@@ -1,0 +1,19 @@
+what is react hooks?
+ React Hooks are special functions that you can use
+ in your components to add and manage things like data, user interactions, and more.
+
+what is the difference between named export default export and * as export in react?
+Named Export: named exports allow you to export multiple items with specific names
+ we can have multiple named exports in a single module.
+
+ Default Export: A default export allows us to export a single default value from a module.
+There can only be one default export per module. when we import a default export we can give 
+any name for imported value.
+
+* as Export:
+this syntax is used for importing every thhing form module
+it is used for importing and organizing multiple named exports from a module into an object.
+
+why do we need useState hook?
+useState is used to mange state wthin functional components its a fundamental amd important feature of react 
+useState allows our components to keep the data and update data it also helps as to re-render and reflecting changes

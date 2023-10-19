@@ -1,13 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-
-
-
-
-const resList = 
-    {
-                restaurants: [
+const resList =
+   [ 
+              
                   {
                     "info": {
                       "id": "5107",
@@ -21,98 +14,9 @@ const resList =
                         "Chinese"
                       ],
                       "avgRating": 4.2,
-                      "feeDetails": {
-                        "restaurantId": "5107",
-                        "fees": [
-                          {
-                            "name": "BASE_DISTANCE",
-                            "fee": 5400
-                          },
-                          {
-                            "name": "BASE_TIME"
-                          },
-                          {
-                            "name": "ANCILLARY_SURGE_FEE"
-                          }
-                        ],
-                        "totalFee": 5400
-                      },
-                      "parentId": "145",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 35,
-                        "lastMileTravel": 4,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35 mins",
-                        "lastMileTravelString": "4.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2023-09-29 23:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
-                            "description": "gourmet"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "gourmet",
-                                  "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
+                      "deliveryTime": 35,
 
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "\u20B9125 OFF",
-                        "subHeader": "ABOVE \u20B9249",
-                        "discountTag": "FLAT DEAL"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      }
-                    },
-                    "analytics": {
-
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/blue-nile-camp-camp-area-pune-5107",
-                      "type": "WEBLINK"
+                      
                     }
                   },
                   {
@@ -131,84 +35,10 @@ const resList =
                         "Beverages"
                       ],
                       "avgRating": 4.4,
-                      "feeDetails": {
-                        "restaurantId": "4884",
-                        "fees": [
-                          {
-                            "name": "BASE_DISTANCE",
-                            "fee": 3800
-                          },
-                          {
-                            "name": "BASE_TIME"
-                          },
-                          {
-                            "name": "ANCILLARY_SURGE_FEE"
-                          }
-                        ],
-                        "totalFee": 3800
-                      },
-                      "parentId": "2",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 33,
-                        "lastMileTravel": 3.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "33 mins",
-                        "lastMileTravelString": "3.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2023-09-30 00:00:00",
-                        "opened": true
-                      },
-                      "badges": {
+                      "deliveryTime": 33,
 
-                      },
-                      "isOpen": true,
-                      "aggregatedDiscountInfoV2": {
-
-                      },
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      }
-                    },
-                    "analytics": {
-
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/subway-meera-nagar-koregaon-park-pune-4884",
-                      "type": "WEBLINK"
+                      
+                          
                     }
                   },
                   {
@@ -1545,127 +1375,17 @@ const resList =
                       "link": "https://www.swiggy.com/restaurants/warmoven-cake-and-desserts-tukaram-nagar-kharadi-pune-213853",
                       "type": "WEBLINK"
                     }
-                  },
+                  }
                 
-                ],
-                "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
-                "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
-                "style": {
-                  "width": {
-                    "type": "TYPE_RELATIVE",
-                    "value": 0.41111112,
-                    "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
-                  },
-                  "height": {
-                    "type": "TYPE_RELATIVE",
-                    "value": 0.7027027,
-                    "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
-                  },
-                  "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
-                },
-                "collectionId": "84124"
+                
+                
               
             
-          }
-        
+                 
+        ];
 
 
-const Header = () => {
-    return(
-        <div className="header">
-            <div className="logo-container">
-                <img className="logo" src="https://assets.materialup.com/uploads/61d86780-be13-47fa-81a6-226aac22db27/preview.jpg"/>
-            </div>
-            <div className="nav-items">
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contanct Us</li>
-                    <li>Cart</li>
-
-                </ul>
-
-            </div>
-        </div>
-    );
-};
-
-// body 
-// css in side jsx 
-const styleCard ={
-    backgroundColor:"#f0f0f0"
-
-};
- 
-const RestaurantCard = (props) => {
-  // console.log(props," this is props");
-    const {data} =props;
-    const {
-      cloudinaryImageId,
-      name,
-      cuisines,
-      locality,
-      costForTwo,
-      avgRatingString,
-      
-    } = data?.info;
-return(
-    //  resData.restaurants.map((data)=> {
-        <div className="res-card" style={styleCard}>
-         <img
-            className="image-res"
-            src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`}
-            alt="image"
-          />
-        <h3>{name}</h3>
-        <h4 className="fiw">{cuisines.join(",")}</h4>
-         <h5>{locality}</h5>
-         <h4>{costForTwo}</h4>
-         <h6>{avgRatingString}</h6>
-     </div>
-    // })
-)
- 
-
-};
+export default resList;
 
 
 
-const Body = () => {
-    return(
-        <div className="body">
-            <div className="search">
-                Search
-            </div>
-            <div className="res-container">
-              {     resList.restaurants.map((data, id)=> {
-// when ever we loop anything we have to give key properte key is reseverd word andwe have to pass in it the unique
-//we can also use index as key also it 
-             return   <RestaurantCard key={id} data={data}/>
-              })}
-            
-            </div>
-
-        </div>
-        
-    );
-
-    
-};
-
-
-const AppLayout = () => {
-    return(
-        <div className="app">
-            <Header/>
-            <Body/>
-        </div>
-    );
-      
-
-};
-
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout/>);

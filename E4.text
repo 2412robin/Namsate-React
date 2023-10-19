@@ -1,0 +1,43 @@
+is JSX mandatory for react
+JSX is not a requirement for using React. Using React without JSX is especially convenient 
+when you don’t want to set up compilation in your build environment.
+Each JSX element is just syntactic sugar for calling React.createElement(component, props, ...children).
+ So, anything we can do with JSX can also be done with just plain JavaScript.
+
+is ES6 mandatory for react
+ ES6 makes our code readable and accessible, 
+ but we can still write accessible code in React without it, so ES6 is not required for React.  
+
+<titlecompnent> vs <titlecompnent/> vs <titlecompnent></titlecompnent> in jsx:
+ <titlecompnent>: This refers to the component itself, as a JavaScript expression or variable. 
+ <titlecompnent/>: This renders the component. It is the same as calling the component function without any arguments. 
+ <titlecompnent></titlecompnent>: This also renders the component, but it allows you to pass children to the component.
+ 
+
+how to write comments in JSX
+ {/* this is how we write comments */}
+
+DOM and Virtual DOM are exactly same. every object that existin the original DOM there is
+ an object for that in React Virtual Dom the only differnce is DOM doest not
+ have the power to dirctly change the layout of the document.manipulating Virtual DOM is fast.
+
+Reconciliation is the process by which React updates the UI to reflect changes in the component state.
+ The reconciliation algorithm is the set of rules that React uses to determine how to update the UI in the most efficient way possible.
+
+what is Fiber in react?
+fiber is the reacts core algorithm
+The goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures.
+Fiber focuses on animations and responsiveness. 
+It has the ability to split work into chunks and prioritize tasks.
+
+why we need keys in react 
+Keys help React identify which items have changed (added/removed/re-ordered).
+ To give a unique identity to every element inside the array, a key is required.
+
+“Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+ props data is read-only, which means that data coming from the parent should not be changed by child components.
+ Props are arguments passed into React components
+
+ A "config-driven UI" is a user interface that is built and configured using a declarative configuration file or data structure,
+  rather than being hardcoded. The configuration file or data structure typically contains information about the structure of the UI,
+   such as the layout of the elements, the properties and behaviors of each element, and any data sources or APIs that the UI interacts with.

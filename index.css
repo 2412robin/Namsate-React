@@ -40,7 +40,7 @@
 padding: 5px;
 margin: 5px;
  width: 200px;
-height: 350px;
+height: 400px;
  
 }
 .res-card:hover {
@@ -56,4 +56,8 @@ height: 350px;
 .res-logo{
     padding: 5px;
     width: 200px;
+}
+.fliter-btn{
+    margin: 10px;
+    cursor: pointer;
 }
